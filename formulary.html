@@ -12,10 +12,9 @@
     h2{font-size: 20px;font-style: italic;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: black;}
     p{color: white;font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-style: oblique;}
     fieldset{background-color: blueviolet;width: 300px;margin: auto;border: 6px solid red;border-radius: 10px 10px;padding: 10px;}
-    input{width: 300px;background-color: antiquewhite;text-align: left;color: black;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;border: 5px solid blue;}
-    label{display: flex;flex-direction: column;padding: 10px;}
-    select{background-color: black;color: yellow;border-radius: 10px 10px;width: 200px;font-size: 15px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-    option{background-color: aqua;color: red;}
+    input{width: 300px;background-color: antiquewhite;text-align: left;color: black;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;border: 5px solid blue;border-radius: 10px 10px;}
+    label{display: flex;flex-direction: column;padding: 10px;color: white;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    select{background-color: black;color: yellow;border-radius: 10px 10px;width: 100px;font-size: 15px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
     textarea{background-color: aqua;color: black;width: 300px;border: 6px solid red;border-radius: 10px 10px;}
     .color{background-color: black;border: 6px solid white;border-radius: 10px 10px;box-shadow: 10px 10px 10px red;width: 100px;margin: auto;display: flex;flex-direction: column;justify-content: center;align-items: center;padding: 10px;}
     summary{width: 300px;border-radius: 10px 10px;margin: auto;}
@@ -48,9 +47,9 @@
             <input type="number" name="Telefone" id="Telefone" required>
             <br>
             <br>
-            <label>Qual sua <b style="color: red;">Experiência</b></label>
+            <label>Qual sua <b style="color: red;">Experiência</b>?</label>
             <br>
-            <br>
+            <div class="color">
             <label for="Aprendiz">Aprendiz</label>
             <input type="radio" name="Experiência"  value="Aprendiz" required>
             <label for="Iniciante">Iniciante</label>
@@ -62,13 +61,13 @@
             <label for="Experiente">Experiente</label>
             <input type="radio" name="Experiência"  value="Experiente" required>
             <label for="Expert">Expert</label>
-            <input type="text">
+            <input type="radio">
             <label for="Veterano">Veterano</label>
             <input type="radio" name="Experiência"  value="Veterano" required>
+            </div>
             <br>
             <br>
             <label>Qual o seu <b style="color: red;">Signo</b>?</label>
-            <br>
             <br>
             <select name="Signo" id="Signo" required>
                 <option value="" selected disabled>Selecione</option>
