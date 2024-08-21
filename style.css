@@ -2,6 +2,6 @@ thead{text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'A
 tbody{text-align: left;font-size: 15px;font-family: Arial, Helvetica, sans-serif;font-style: italic;text-shadow: 5px;}
 tfoot{text-align: left;font-size: 20px;font-family: 'Times New Roman', Times, serif;font-style: inherit;text-shadow: 5px;}
 dl{padding: 5px;}
-dt{text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 5px;}
-dd{text-align: left;font-size: 15px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: italic;text-shadow: 5px;}
+dd{text-align: left;font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;padding: 10px;font-style: italic;}
+dt{text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 5px;padding: 10px;}
 summary{margin: auto;width: 250px;border-radius: 10px 10px;}
